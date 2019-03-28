@@ -54,6 +54,7 @@ a {
   display: inline-block;
   float: left;
 }
+
 .navbar {
   display: inline-block;
   float: right;
@@ -61,6 +62,8 @@ a {
   position: absolute;
   right: 10%;
 }
+
+
 
 #companies-attending {
   margin-left: -5%;
@@ -102,5 +105,9 @@ a {
   .custom-button {
     display: block;
     margin: 20px 50px;
+  }
+
+  .navbar {
+    display: none;  
   }
 }
