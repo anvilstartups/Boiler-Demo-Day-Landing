@@ -16,6 +16,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Boiler Accelerator Demo Day - 2019</title>
     <link href="https://fonts.googleapis.com/css?family=Lato:400,400i|Roboto:500" rel="stylesheet">
+    <link rel="stylesheet" href="dist/css/skeleton.css">
     <link rel="stylesheet" href="dist/css/style.css">
     <link rel="stylesheet" href="dist/css/main.css">
     <link rel="shortcut icon" type="image/png" href="https://anvilstartups.com/assets/favicon-09e6f8aca82c2c0610659d492fc4d481c341543dff1f73ffcc7796959b439d62.ico"/>
@@ -48,7 +49,7 @@
                     </div>
                 </div>
                 <div class="navbar">
-                  <!-- <a href="#companies" class="navbar-item">Companies</a>
+              <!--     <a href="#companies" class="navbar-item">Companies</a>
                   <a href="#itinerary" class="navbar-item">Itinerary</a>
                   <a href="#judges" class="navbar-item">Judges</a>
                   <a href="#history" class="navbar-item">History</a> -->
@@ -67,7 +68,7 @@
                 </div>
             </section>
 
-           <!--  <section class="features section text-center" id="students">
+    <!--         <section class="features section text-center" id="students">
                 <div class="container">
                     <div class="features-inner section-inner has-bottom-divider">
                         <div class="features-wrap">
@@ -138,13 +139,14 @@
                     </div>
                 </div>
             </section>
-
+ -->
             <section class="newsletter section has-bottom-divider" id="itinerary">
                 <div class="container-sm">
                     <div class="newsletter-inner section-inner">
                         <div class="newsletter-header text-center is-revealing">
                             <h2 class="section-title mt-0">Itinerary</h2>
-                            <p class="text-sm">Insert Itinerary Here</p>
+<!--                             <p class="text-sm">Insert Itinerary Here</p>
+ -->                            <iframe src="Demo%20Day%20Itinerary.pdf" width="100%" height="800px"> </iframe>
                         </div>
                     </div>
                 </div>
@@ -155,52 +157,84 @@
                     <div class="newsletter-inner section-inner">
                         <div class="newsletter-header text-center is-revealing">
                             <h2 class="section-title mt-0">Our Startups</h2>
-                            <p class="text-sm">For our inaugural event we are bringing out over 30 startups from all around the midwest who are hiring for over 100 different internship and full time opportunities! These companies range in size from 1 to 100 people and are situated in a wide range of industries.</p>
-                            <div id="companies-attending">
+                            <p class="text-sm">These are some of the best startups coming out of Purdue University and will be the ones pitching at Demo Day!</p>
+                            <div id="companies-attending row">
+                                <div class="company four columns">
+                                    <div class="company-logo" style="background: url(img/startups/dimelogo.png);"></div>
+                                    <p class="company-info">Dime is creating a one-stop shop where brands looking for short-term alternatives to a storefront can host pop-up shops that enable them to interact directly with desired consumer groups.</p>
+                                </div>
+                                <div class="company four columns">
+                                    <div  class="company-logo" style="background: url(img/startups/me.jpg)"></div>
+                                    <p class="company-info">FlykeART is a smart airplane food cart that connects to the cabin via Wi-Fi.  This allows airlines to reduce operating costs and optimize the catering process.</p>
+                                </div>
+                                <div class="company four columns">
+                                    <div  class="company-logo" style="background: url(img/startups/VastraInc_Logo_White.gif)"></div>
+                                    <p class="company-info">Vastra plans to combat the problem of sleeping at the wheel by building next generation non-invasive driver safety systems.  </p>
+                                </div>
                             </div>
+                            <div class="row">
+                                <div class="company two columns" style="margin-top: 10px"></div>
+                                <div class="company four columns">
+                                    <div  class="company-logo" style="background: url(img/startups/GetSpace.png")></div>
+                                    <p class="company-info">GetSpace connects students who are looking for short-term accommodation during their internships or co-ops. </p>
+                                </div>
+                                <div class="company four columns">
+                                    <div class="company-logo" style="background: url(img/startups/MakeAThing.png)"></div>
+                                    <p class="company-info">Make A Thing is an online design community with simplified modeling software in order to reduce the barriers to entry for design.</p>
+                                </div>
+                            </div>
+                        </div>
                         </div>
                     </div>
                 </div>
             </section>
 
-            <section class="newsletter section has-bottom-divider" id="judges">
+            <section class="newsletter section" id="judges">
                 <div class="container-sm">
                     <div class="newsletter-inner section-inner">
                         <div class="newsletter-header text-center is-revealing">
                             <h2 class="section-title mt-0">Our Amazing Judges</h2>
-                            <p class="text-sm">Insert Judge Text Here</p>
-                            <div id="judges-attending">
-
+                            <p class="text-sm"></p>
+                            <div id="judges-attending row">
+                                <a href="https://www.linkedin.com/in/jameschapmanspeaks" class="judge-image three columns">
+                                    <img src="img/judges/James%20Chapman.jpg"></img>
+                                    <p class="judge-name">James Chapman</p>
+                                    <p class="judge-background">Director of Entrepreneurship at Quicken Loans Community Fund</p>
+                                </a>
+                                <a href="https://www.linkedin.com/in/npachisia/" class="judge-image three columns">
+                                    <img src="img/judges/Nitin%20Pachisia.jpg"></img>
+                                    <p class="judge-name">Nitin Pachisia</p>
+                                    <p class="judge-background">Founding Partner at Unshackled Ventures</p>
+                                </a>
+                                <a href="https://www.linkedin.com/in/vonderhaar" class="judge-image three columns">
+                                    <img src="img/judges/Steve%20Vonderhaar.jpg"></img>
+                                    <p class="judge-name">Steve Vonderhaar</p>
+                                    <p class="judge-background">Director of Entrepreneurship at Quicken Loans Community Fund</p>
+                                </a>
+                                <a href="https://www.linkedin.com/in/tinggootee" class="judge-image three columns" style="text-align: center">
+                                    <img src="img/judges/Ting%20Gootee.jpg"></img>
+                                    <p class="judge-name">Ting Gootee</p>
+                                    <p class="judge-background">CIO at Elevate Ventures</p>
+                                </and>
                             </div>
                         </div>
                     </div>
                 </div>
             </section>
-
-            <section class="newsletter section has-bottom-divider" id="history">
-                <div class="container-sm">
-                    <div class="newsletter-inner section-inner">
-                        <div class="newsletter-header text-center is-revealing">
-                            <h2 class="section-title mt-0">Our History</h2>
-                            <p class="text-sm">Insert History Here</p>
-                        </div>
-                    </div>
-                </div>
-            </section> -->
         </main>
 
-        <footer class="site-footer text-light">
+        <footer class="site-footer text-light text-center" style="margin-top: 400px">
             <div class="container">
                 <div class="site-footer-inner">
                     <div class="brand footer-brand">
                         <a href="#">
-                          <img src="img/anvil_logo.png" width="50px">
+                          <!-- <img src="img/anvil_logo.png" width="50px"> -->
                         </a>
                     </div>
                     <ul class="footer-links list-reset">
                         
                     </ul>
-                    <ul class="footer-social-links list-reset"></ul>
+                    <!-- <ul class="footer-social-links list-reset"></ul> -->
                     <div class="footer-copyright">&copy; 2019 The Anvil, all rights reserved</div>
                 </div>
             </div>

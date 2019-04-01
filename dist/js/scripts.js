@@ -18,31 +18,31 @@ judges = [
 
 
 
-const companiesContainer = document.getElementById("companies-attending");
+// const companiesContainer = document.getElementById("companies-attending");
 
-companies.forEach(company => {
-  let companyLink = document.createElement("a");
-  let companyLogo = document.createElement("img");
+// companies.forEach(company => {
+//   let companyLink = document.createElement("a");
+//   let companyLogo = document.createElement("img");
 
-  companyLink.href = company.url; 
-  companyLogo.src = `img/${company.logo}.png`;
-  companyLogo.className = "logo-image";
+//   companyLink.href = company.url; 
+//   companyLogo.src = `img/${company.logo}.png`;
+//   companyLogo.className = "logo-image";
 
-  companyLink.append(companyLogo);
-  companiesContainer.append(companyLink);
-})
+//   companyLink.append(companyLogo);
+//   companiesContainer.append(companyLink);
+// })
 
 
-const judgesContainer = document.getElementById("judges-attending");
+// const judgesContainer = document.getElementById("judges-attending");
 
-judges.forEach(judge => {
-  let judgeLink = document.createElement("a");
-  let judgeLogo = document.createElement("img");
+// judges.forEach(judge => {
+//   let judgeLink = document.createElement("a");
+//   let judgeLogo = document.createElement("img");
 
-  judgeLink.href = judge.linkedin; 
-  judgeLogo.src = `img/${judge.image}.png`;
-  judgeLogo.className = "judge-image";
+//   judgeLink.href = judge.linkedin; 
+//   judgeLogo.src = `img/${judge.image}.png`;
+//   judgeLogo.className = "judge-image";
 
-  judgeLink.append(judgeLogo);
-  judgesContainer.append(judgeLink);
-})
+//   judgeLink.append(judgeLogo);
+//   judgesContainer.append(judgeLink);
+// })

@@ -1,5 +1,6 @@
 .button-primary {
   background: #ffcc00;
+  background-color: #ffcc00 !important;
 }
 
 .custom-button {
@@ -63,14 +64,6 @@ a {
   right: 10%;
 }
 
-
-
-#companies-attending {
-  margin-left: -5%;
-  margin-right: -5%;
-  margin-bottom: -5%;
-}
-
 .logo-image {
   width: 22%;
   display: inline-block;
@@ -78,12 +71,53 @@ a {
   cursor: pointer;
 }
 
-.logo-image:hover {
+.logo-image:hover, .company:hover {
   transform: scale(1.1);
   transition: 0.3s;
 }
 
-#judges-attending {
+.judges-attending {
+  padding-bottom: 50px;
+  position: relative;
+}
+
+#companies {
+  height: 1200px;
+}
+
+.company {
+  height: 500px;
+}
+
+.company-logo {
+  width: 100%;
+  background-color: #ffcc00;
+  height: 245.33px;
+  background-size: 50% !important;
+  background-repeat: no-repeat !important;
+  background-position: center !important;
+  border: 2px black solid;
+}
+
+.company img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.container-sm {
+  height: 100%;
+  position: relative;
+}
+
+
+
+.company-info {
+  font-size: 14px;
+  text-align: left;
+  margin-top: 15px;
+  font-weight: bold;
+}
+/*#judges-attending {
   margin-left: -5%;
   margin-right: -5%;
   margin-bottom: -5%;
@@ -94,6 +128,25 @@ a {
   display: inline-block;
   margin: 5%;
   cursor: pointer;
+  object-fit: cover;
+  height: 250px;
+}
+*/
+
+.judge-image img {
+  width: 100%;
+}
+
+.judge-name {
+  font-size: 16px;
+  font-weight: bold;
+  margin-top: 15px;
+}
+
+.judge-background {
+  font-size: 14px;
+  margin-top: 10px;
+  line-height: normal;
 }
 
 .judge-image:hover {
