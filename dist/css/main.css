@@ -81,14 +81,6 @@ a {
   position: relative;
 }
 
-#companies {
-  height: 1200px;
-}
-
-.company {
-  height: 500px;
-}
-
 .company-logo {
   width: 100%;
   background-color: #ffcc00;
@@ -104,10 +96,10 @@ a {
   object-fit: cover;
 }
 
-.container-sm {
+/*.container-sm {
   height: 100%;
   position: relative;
-}
+}*/
 
 
 
